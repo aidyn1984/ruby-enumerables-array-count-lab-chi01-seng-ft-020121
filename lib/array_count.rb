@@ -3,5 +3,9 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  # Return the total number of EMPTY strings in the provided array using the count enumerable
+  array_1 = ["", "hello", "world", 4, 1, 5, [], {}]
+  array = [ "", "Hello", 4, [], "", "" ]
+  array_1.filter { |x| x == ""}.length
+  array.filter { |x| x == ""}.length
+  
 end
